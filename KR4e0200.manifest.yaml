@@ -1,0 +1,118 @@
+canonical_identifier: bkk:krp/KR4e0200/v1
+canonical_location: https://kanripo.org/bkk/KR4e0200/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 楊忠愍集
+  date: '2015-08-25 00:25:20.288978'
+  source:
+    repository: kanripo
+    path: KR4e0200
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4e0200_000.yaml, hash: 'sha256:61ae7b5e6f24af55a202578843ecd1558050b4af3412d4e9a02590f4ca4a78c4'}
+  - {seq: 1, filename: KR4e0200_001.yaml, hash: 'sha256:131f3ba043da389d36832aeba84521b71d3e2a1cbcd3e8a888f7fdd80808d67e'}
+  - {seq: 2, filename: KR4e0200_002.yaml, hash: 'sha256:632fe7d6a5d373c7dd8c103811d3680246a1cdedfc4997bd22b6637514347fd6'}
+  - {seq: 3, filename: KR4e0200_003.yaml, hash: 'sha256:05d2720e4e8059617543657391512a5a2415c98a0b9e049cfa2ff4a62158e433'}
+  - {seq: 4, filename: KR4e0200_004.yaml, hash: 'sha256:93c9c6869f75cad34171d5c3724e31d721113f8917fb1ea61e43de4b51d8f86e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4e0200_000.markers.yaml, hash: 'sha256:8d9e1d5515c7a42e5f6a8ede3b31d3603286d3aec7c71256d5586e7ca68bb798'}
+  - {seq: 1, role: markers, filename: assets/KR4e0200_001.markers.yaml, hash: 'sha256:29186b75a4b0df3359ca992618d1c8048a6405d2424f3259394dc0e3caca82d7'}
+  - {seq: 2, role: markers, filename: assets/KR4e0200_002.markers.yaml, hash: 'sha256:28583ac1c85c31267a531a43c13d09997116e64b5cb949e1d3ecf84276af7ddf'}
+  - {seq: 3, role: markers, filename: assets/KR4e0200_003.markers.yaml, hash: 'sha256:97ab137e50b06137ae2fba7072dbe6bd98f2da95862cb3cc321c59db1e268d91'}
+  - {seq: 4, role: markers, filename: assets/KR4e0200_004.markers.yaml, hash: 'sha256:af114fee94fb352f68fe2ebc133dd7170e6bb6c5c12c6cb5a5bd22b9b7695ce1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0200_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 344
+  label: 世祖章皇帝御製表忠録序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0200_WYG_000-3a
+    span:
+    - body
+    - 344
+    - 788
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0200_WYG_000-5a
+    span:
+    - body
+    - 788
+    - 831
+  label: 目録
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0200_WYG_000-7a
+    span:
+    - body
+    - 831
+    - 1833
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0200_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8805
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0200_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 13008
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4e0200_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 16318
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR4e0200_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 13901
+  label: 卷四
+  type: section
+  level: 1
+hash: sha256:2ca92c1e4c1a113c71a7c3177a2ceba30142f93ca11e8d25c203c79732ae60d7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
